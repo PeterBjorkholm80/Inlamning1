@@ -16,7 +16,7 @@ val6=${values[5]}
 val7=${values[6]}
 val8=${values[7]}
 
-expected_output="75"
+
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
