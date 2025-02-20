@@ -3,12 +3,12 @@
 
 int main()
 {
-    // The Line below must not be changed or test will fail
+    // The Line below must *NOT* be changed or test will fail!
     srand(1);
 
-    /* Solution */
+    /* -- Solution from here -- */
 
-    // Create a variabel to store values
+    // Create a variable to store values
     int dice_rolls[100];
     for (int i = 0; i < 100; i++){
         dice_rolls[i] = (rand() % 6)+1;
@@ -41,9 +41,7 @@ int main()
         //Also add the number to the total sum
         sum += dice_rolls[i];
         
-
     }
-
    
     printf("%d\n",one);
     printf("%d\n",two);
@@ -55,8 +53,9 @@ int main()
     float average = sum/100.0;
     printf("%.1f", average);
 
+    /* -- Solution to here -- */
 
+    // Your code goes here
 
-    //printf("Random number: %d\n", rand() % 100);
     return 0;
 }
