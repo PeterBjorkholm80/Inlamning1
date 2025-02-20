@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "gen_num.h"
 
 int main(){
    
