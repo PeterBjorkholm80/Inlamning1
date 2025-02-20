@@ -1,5 +1,5 @@
 echo "Running tests..."
-
+echo
 
 output=$(./main.out)
 
@@ -25,60 +25,60 @@ else
   exit 1
 fi
 
-if [ "$val1" == "14" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val1" == "17" ] ; then
+  echo "Pass: nr of ones: $val1"
 else
-  echo "Expected '14' but got: $val1"
+  echo "Expected '17' but got: $val1"
   exit 1
 fi
 
-if [ "$val2" == "9" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val2" == "18" ] ; then
+  echo "Pass: nr of two: $val2"
 else
-  echo "Expected '9' but got: $val2"
+  echo "Expected '18' but got: $val2"
   exit 1
 fi
 
-if [ "$val3" == "18" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val3" == "23" ] ; then
+  echo "Pass: nr of three: $val3"
 else
-  echo "Expected '18' but got: $val3"
+  echo "Expected '23' but got: $val3"
   exit 1
 fi
 
-if [ "$val4" == "20" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val4" == "18" ] ; then
+  echo "Pass: nr of four: $val4"
 else
-  echo "Expected '20' but got: $val4"
+  echo "Expected '18' but got: $val4"
   exit 1
 fi
 
-if [ "$val5" == "20" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val5" == "12" ] ; then
+  echo "Pass: nr of five: $val5"
 else
-  echo "Expected '20' but got: $val5"
+  echo "Expected '12' but got: $val5"
   exit 1
 fi
 
-if [ "$val6" == "19" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val6" == "12" ] ; then
+  echo "Pass: nr of six: $val6"
 else
-  echo "Expected '19' but got: $val6"
+  echo "Expected '12' but got: $val6"
   exit 1
 fi
 
-if [ "$val7" == "380" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val7" == "326" ] ; then
+  echo "Pass: Sum was: $val7"
 else
-  echo "Expected '380' but got: $val7"
+  echo "Expected '326' but got: $val7"
   exit 1
 fi
 
-if [ "$val8" == "3.8" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val8" == "3.3" ] ; then
+  echo "Pass: Average was: $val8"
 else
-  echo "Expected '3.8' but got: $val8"
-  echo "Make sure you are using float and rounding with 1 decimal"
+  echo "Expected '3.3' but got: $val8"
+  echo "Make sure you are using float and formatting with 1 decimal"
   exit 1
 fi
 
