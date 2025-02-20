@@ -1,5 +1,5 @@
-program: main.c gen_num.c
-	gcc main.c gen_num.c -o main
+program: main.c 
+	gcc main.c -o main
 
 clean:
 	rm main
