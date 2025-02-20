@@ -1,5 +1,5 @@
 echo "Running tests..."
-echo
+
 
 output=$(./main.out)
 
